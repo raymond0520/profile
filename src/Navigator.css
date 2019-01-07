@@ -1,0 +1,70 @@
+.Main-navigator {
+    position: absolute;
+    right: 0;
+    bottom: 0px;
+    width: 500px;
+    padding: 0;
+    transform: translate(0%, -50%);
+}
+
+ul.Main-side-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /* position: fixed; */
+    height: 100%;
+}
+
+li {
+    display:inline;
+}
+
+ul.Main-side-nav li a {
+    color: #ffffff;
+    padding: 0px 0px;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+ul.Main-side-nav li a:after {
+    content: url('./white-slash.svg');
+}
+
+/* 
+
+ul.Main-side-nav li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+ul.Main-side-nav li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+div.content {
+    margin-left: 25%;
+    padding: 1px 16px;
+    height: 1000px;
+}
+
+@media screen and (max-width: 900px) {
+    ul.Main-side-nav {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    ul.Main-side-nav li a {
+        float: left;
+        padding: 15px;
+    }
+    div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+    ul.Main-side-nav li a {
+        text-align: center;
+        float: none;
+    }
+} */

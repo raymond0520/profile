@@ -1,0 +1,51 @@
+.Experience-unit-container {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    width: 800px;
+    padding: 0;
+    justify-content:flex-start;
+    margin-bottom: 35px;
+    margin-top:0;
+}
+
+.Experience-heading {
+    display:flex;
+    justify-content:space-between;
+    padding: 0;
+}
+
+.Experience-title {
+    margin: 35px 0px 0px 30px;
+    padding: 0;
+    font-size:1.50em;
+    font-weight: 900;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.Experience-company {
+    padding: 0;
+    margin-bottom: 5px;
+    margin-right: 35px;
+    align-self: flex-end;
+    font-size: 1.2em;
+    color: rgb(138,138,145);
+    font-weight: 700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.Experience-date {
+    margin: 15px 0 0 30px;
+    padding:0;
+    color: #2482f6;
+    font-family: "Poppins", sans-serif;
+    font-size: 0.9em;
+    font-weight: 700;
+}
+
+.Experience-summary {
+    margin:10px 30px 35px 30px;
+    line-height: 135%;
+    color: rgb(133, 133, 133);
+    font-size:0.95em;
+}

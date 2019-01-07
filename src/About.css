@@ -1,0 +1,42 @@
+.About-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.About-bg {
+    position: absolute;
+    width: 100%;
+    height: 400px;
+    z-index: -1;
+}
+
+.About-img-container {
+    padding-right:40px;
+}
+
+.About-img {
+    width: 480px;
+    height: 320px;
+}
+
+.About-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content:flex-start;
+    width:600px;
+}
+
+.About-title {
+    font-size:2.8em;
+    margin: 0 0 10px 0;
+}
+
+.About-summary {
+    font-family: "Poppins", sans-serif;
+    color: rgb(133, 133, 133);
+    font-size:1.2em;
+    line-height: 150%;
+    margin: 0;
+}
