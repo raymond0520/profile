@@ -11,9 +11,14 @@ class Education extends Component {
 
     render() {
         const educations = this.props.educations;
+        const Education_container_style = {
+            backgroundImage: 'url(' + EducationBg + ')',
+            backgroundSize: 'contain'
+        };
+
         return (
-            <div className="Education-container">
-                <img src={EducationBg} alt="education background" className="Eucation-bg"></img>
+            <div className="Education-container" style={Education_container_style}>
+                {/* <img src={EducationBg} alt="education background" className="Eucation-bg"></img> */}
                 <h1 className="Education-container-title">My Education</h1>
                 <div className="Education-list-container">
                     <EducationUnit schoolIcon={educations[0].schoolIcon}
