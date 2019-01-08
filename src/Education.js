@@ -9,6 +9,25 @@ class Education extends Component {
         super(props);
     }
 
+    educationList (props) {
+        const listItems = props.educations.map((education) => 
+            <li key={education.id}>
+                <EducationUnit schoolIcon={education.schoolIcon}
+                        schoolName={education.schoolName}
+                        major={education.major}
+                        startDate={education.startDate}
+                        endDate={education.endDate}
+                    />
+            </li>
+        );
+
+        return (
+            <ul className="Education-list">
+                {listItems}
+            </ul>
+        );
+    }
+
     render() {
         const educations = this.props.educations;
         const Education_container_style = {
@@ -20,20 +39,7 @@ class Education extends Component {
             <div className="Education-container" style={Education_container_style}>
                 {/* <img src={EducationBg} alt="education background" className="Eucation-bg"></img> */}
                 <h1 className="Education-container-title">My Education</h1>
-                <div className="Education-list-container">
-                    <EducationUnit schoolIcon={educations[0].schoolIcon}
-                        schoolName={educations[0].schoolName}
-                        major={educations[0].major}
-                        startDate={educations[0].startDate}
-                        endDate={educations[0].endDate}
-                    />
-                    <EducationUnit schoolIcon={educations[1].schoolIcon}
-                        schoolName={educations[1].schoolName}
-                        major={educations[1].major}
-                        startDate={educations[1].startDate}
-                        endDate={educations[1].endDate}
-                    />
-                </div>
+                {this.educationList(this.props)}
             </div>
         );
     }

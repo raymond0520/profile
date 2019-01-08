@@ -7,6 +7,8 @@ import Experience from './Experience.js';
 import Education from './Education.js';
 import SchoolIcon1 from './school_icon1.png';
 import SchoolIcon2 from './school_icon2.png';
+import Portfolio from './Portfolio.js';
+import PortfolioPic from './portfolio_pic.jpg';
 
 class App extends Component {
   render() {
@@ -17,7 +19,8 @@ class App extends Component {
           <Introduce className="Introduce" />
           <About className="About" id="about" />
           <Experience className="Experience" id="work" experiences={experiences} />
-          <Education className="Education" educations={educations}></Education>
+          <Education className="Education" educations={educations} />
+          <Portfolio className="Portfolio" portfolios={portfolios}/>
         </div>
       </div>
     );
@@ -51,6 +54,24 @@ const educations = [
     id:"1", schoolIcon: SchoolIcon2, schoolName:"Hubei University",
     startDate:"2009", endDate:"2013", major:"B.Eng. in Computer Science"
   }
+];
+
+const portfolios = [
+  {
+    id:"0", pic:PortfolioPic, title:"LeoVegas", desc:"LeoVegas desktop and mobile web development"
+  },
+  {
+    id:"1", pic:PortfolioPic, title:"CV", desc:"LeoVegas desktop and mobile web development"
+  },
+  {
+    id:"2", pic:PortfolioPic, title:"New Forum", desc:"LeoVegas desktop and mobile web development"
+  },
+  {
+    id:"3", pic:PortfolioPic, title:"Movie Analysis", desc:"LeoVegas desktop and mobile web development"
+  },
+  {
+    id:"4", pic:PortfolioPic, title:"Blog", desc:"LeoVegas desktop and mobile web development"
+  },
 ];
 
 export default App;

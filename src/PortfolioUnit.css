@@ -1,0 +1,12 @@
+.Portfolio-unit-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.Portfolio-picture {
+    display: block;
+    width: 200px;
+    height: 150px;
+}

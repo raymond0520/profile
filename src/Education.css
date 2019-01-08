@@ -13,10 +13,10 @@
     z-index: -1;
 }
 
-.Education-list-container {
+.Education-list {
     display: flex;
-    justify-content: space-between;
-    width:700px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .Education-container-title {
