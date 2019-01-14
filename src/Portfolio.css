@@ -1,25 +1,27 @@
 .Portfolio-list {
     display: flex;
-    flex-wrap: wrap;
+    flex-flow:row wrap;
     justify-content: center;
-    /* flex: 0 0 25%; */
+    /* border: yellow solid 1px; */
 }
 
 .Portfolio-item {
     list-style: none;
-    border: 1px solid red;
-    margin-bottom: 30px;
+    flex: 0 0 auto;
+    margin: 0px 10px 20px 10px;
 }
 
 .Portfolio-list-container {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background: #ffffff;
+    /* border: blue solid 1px; */
 }
 
 .Portfolio-list-container-title {
     font-family: "Poppins", sans-serif;
     font-size: 2.5em;
     margin-top: 50px;
-    margin-bottom:0px;
+    margin-bottom:10px;
 }

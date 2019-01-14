@@ -29,7 +29,6 @@ class Education extends Component {
     }
 
     render() {
-        const educations = this.props.educations;
         const Education_container_style = {
             backgroundImage: 'url(' + EducationBg + ')',
             backgroundSize: 'contain'

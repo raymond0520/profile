@@ -6,11 +6,18 @@ class Portfolio extends Component {
     // eslint-disable-next-line no-useless-constructor
     constructor(props) {
         super(props);
+
+        this.liRef = React.createRef();
+    }
+
+    componentDidMount () {
+        // const node = this.liRef.current;
+        // console.log("node.key");
     }
 
     portfolioList(props) {
-        const listItems = props.portfolios.map((portfolio) =>
-            <li key={portfolio.id} className="Portfolio-item">
+        const listItems = props.portfolios.map((portfolio, index) =>
+            <li key={portfolio.id} className="Portfolio-item" ref={index===1?this.liRef:null}>
                 <PortfolioUnit pic={portfolio.pic}
                                title={portfolio.title}
                                desc={portfolio.desc}

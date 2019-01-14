@@ -1,17 +1,15 @@
 .App-header {
     font-size: calc(10px + 2vmin);
     background:rgba(0,0,0,0.5);
-    position: fixed;
     width:100%;
-    height: 60px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
  .Logo-title {
     color:white;
-    position: absolute;
-    left:20px;
-    bottom: 0;
-    margin: 0;
+    margin-left: 20px;
     padding: 0;
-    transform: translate(0%, -50%);
 }

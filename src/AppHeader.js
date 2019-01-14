@@ -5,10 +5,10 @@ import Navigator from './Navigator.js';
 class AppHeader extends Component {
     render() {
         return (
-            <header className="App-header">
+            <div className="App-header">
                 <p className="Logo-title">Raymond</p>
                 <Navigator className="navigator"/>
-            </header>
+            </div>
         );
     }
 }

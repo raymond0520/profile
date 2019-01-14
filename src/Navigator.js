@@ -4,7 +4,7 @@ import './Navigator.css';
 class MainNavigator extends Component {
     render() {
         return (
-            <div className="Main-navigator">
+            <nav className="Main-navigator">
                 <ul className="Main-side-nav">
                     <li><a href="#home">Home</a></li>
                     <li><a href="#about">About</a></li>
@@ -12,7 +12,7 @@ class MainNavigator extends Component {
                     <li><a href="#education">Education</a></li>
                     <li><a href="#portfilio">Portfilio</a></li>
                 </ul>
-            </div>
+            </nav>
         );
     }
 }

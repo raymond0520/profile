@@ -1,17 +1,12 @@
 .Main-navigator {
-    position: absolute;
-    right: 0;
-    bottom: 0px;
-    width: 500px;
+    margin-right: 20px;
     padding: 0;
-    transform: translate(0%, -50%);
 }
 
 ul.Main-side-nav {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    /* position: fixed; */
     height: 100%;
 }
 
@@ -27,7 +22,7 @@ ul.Main-side-nav li a {
     box-sizing: border-box;
 }
 
-ul.Main-side-nav li a:after {
+ul.Main-side-nav li:not(:nth-child(5)) a:after {
     content: url('./white-slash.svg');
 }
 

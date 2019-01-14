@@ -1,9 +1,17 @@
 .App {
   margin: 0;
   padding: 0;
+  display: flex;
+  flex-direction: column;
 }
 
-.Home-content-container {
+.Home-header {
+  position: fixed;
+  width:100%;
+  height: 60px;
+}
+
+.Main {
   display: flex;
   flex-direction: column;
 }

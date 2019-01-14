@@ -14,14 +14,19 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <div className="Home-content-container">
-          <AppHeader className="AppHeader" />
+        <header className="Home-header">
+          <AppHeader className="HomeHeader"/>
+        </header>
+        <div className="Main">
           <Introduce className="Introduce" />
           <About className="About" id="about" />
           <Experience className="Experience" id="work" experiences={experiences} />
           <Education className="Education" educations={educations} />
-          <Portfolio className="Portfolio" portfolios={portfolios}/>
+          <Portfolio className="Portfolio" portfolios={portfolios} />
         </div>
+        <footer className="Home-footer">
+          
+        </footer>
       </div>
     );
   }
