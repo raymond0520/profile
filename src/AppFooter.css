@@ -1,0 +1,29 @@
+.App-footer {
+    height: 150px;
+    max-width: 100%;
+    background: rgb(26, 26, 26);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Links-container {
+    margin: 20px 0 10px 40px;
+}
+
+.Github-ico {
+    height: 40px;
+    width: 40px;
+    /* display: inline-block; */
+}
+
+.Linkedin-ico {
+    height: 40px;
+    width: 40px;
+}
+
+.Copyright {
+    color: rgb(173, 173, 173);
+    font-size: 0.9em;
+    margin: 0 0 0 40px;
+}

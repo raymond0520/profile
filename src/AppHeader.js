@@ -7,7 +7,7 @@ class AppHeader extends Component {
         return (
             <div className="App-header">
                 <p className="Logo-title">Raymond</p>
-                <Navigator className="navigator"/>
+                <Navigator className="navigator" />
             </div>
         );
     }

@@ -1,19 +1,16 @@
-/* .Portfolio-unit-container {
-    
-} */
-
-.Button-container {
+.Portfolio-unit-container {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    height: 280px;
+    height: 300px;
     width: 300px;
     margin: 0;
     background: white;
     border: 1px solid rgb(245, 245, 245);
     border-radius: 5px;
     box-shadow: 0px 1px 1px 0 rgb(169, 169, 169);
+    cursor: pointer;
 }
 
 .Portfolio-picture {

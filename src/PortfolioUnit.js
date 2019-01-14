@@ -10,11 +10,9 @@ class PortfolioUnit extends Component {
     render() {
         return (
             <div className="Portfolio-unit-container">
-                <button className="Button-container">
                 <img src={this.props.pic} alt="portfolio pic" className="Portfolio-picture"></img>
                 <h1 className="Portfolio-title">{this.props.title}</h1>
                 <p className="Portfolio-desc">{this.props.desc}</p>
-                </button>
             </div>
         );
     }
