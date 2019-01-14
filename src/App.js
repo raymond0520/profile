@@ -9,6 +9,7 @@ import SchoolIcon1 from './school_icon1.png';
 import SchoolIcon2 from './school_icon2.png';
 import Portfolio from './Portfolio.js';
 import PortfolioPic from './portfolio_pic.jpg';
+import AppFooter from './AppFooter.js';
 
 class App extends Component {
   render() {
@@ -25,7 +26,7 @@ class App extends Component {
           <Portfolio className="Portfolio" portfolios={portfolios} />
         </div>
         <footer className="Home-footer">
-          
+          <AppFooter className="AppFooter"/>
         </footer>
       </div>
     );
